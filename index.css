@@ -10,6 +10,7 @@
   font-family:inherit;
   box-sizing: border-box;
 }
+/* styling of body */
 body
   {
     margin:0;
@@ -25,6 +26,7 @@ body
      1fr minmax(250px, 500px) 1fr;
 
 }
+/* styling of title */
 .title{
   grid-area:header;
   text-align: center;
@@ -58,7 +60,7 @@ body
   font-size:1rem;
 
 }
-
+/* styling of list to be displayed */
 ul{
   margin:0;
   padding:0;
@@ -91,9 +93,6 @@ ul li.checked {
   color: #fff;
   text-decoration: line-through;
 }
-/*ul li:nth-child(even).checked {
-  background:#00aaff;
-}*/
 ul li.checked::before {
   content: '';
   position: absolute;
