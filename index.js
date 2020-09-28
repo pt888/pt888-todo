@@ -1,4 +1,4 @@
-
+//function to count the number of remaining task at any particular time
 function countTask() {
   let mylist = document.getElementsByTagName("li");
   var tot = document.querySelector("[data-task]");
